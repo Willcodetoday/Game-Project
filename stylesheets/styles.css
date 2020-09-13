@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+}
+
+p{
+    color: red;
+
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid red;
+    height: 3rem;
+    width: auto;
+}
