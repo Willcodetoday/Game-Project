@@ -5,6 +5,10 @@ body{
     background-color: black;
 }
 
+@font-face{
+    font-family: 'grafitti';
+    src: url(adrip1.ttf)format('truetype');
+}
 p{
     color: red;
 }
@@ -25,6 +29,7 @@ p{
 }
 
 .nav-button{
+    font-family: 'grafitti';
     display: flex;
     justify-content: center;
     align-items: center;
