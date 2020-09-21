@@ -6,8 +6,8 @@ body{
 }
 
 @font-face{
-    font-family: 'grafitti';
-    src: url(adrip1.ttf)format('truetype');
+    font-family: "grafitti";
+    src: url('adrip1.tff');
 }
 p{
     color: red;
@@ -19,13 +19,13 @@ p{
 .navbar{
     display: flex;
     flex-direction: row;
-    
+    font-family: 'grafitti';
     height: 3rem;
     width: auto;
     justify-content: space-between;
     align-items: center;
-    background-color: midnightblue;
-    box-shadow: 0px 0px 80px blue;
+    /*background-color: midnightblue;*/
+    /*box-shadow: 0px 0px 80px blue;*/
 }
 
 .nav-button{
