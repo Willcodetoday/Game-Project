@@ -7,7 +7,8 @@ body{
 
 @font-face{
     font-family: "grafitti";
-    src: url('adrip1.tff');
+    /*src: url('adrip1.ttf');*/
+    src: url('RockSalt-Regular.ttf');
 }
 p{
     color: red;
@@ -35,7 +36,8 @@ p{
     align-items: center;
     font-size: 2rem;
     height: 100%;
-    width: 15%;
+    padding: 3px;
+    /*width: 20%;*/
     /*border: 1px solid #b30059;*/
     color:  #b30059;
     box-shadow: 0px 0px 70px 10px #b30059;
