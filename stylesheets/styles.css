@@ -4,7 +4,7 @@
 
 button{
     background-color: black;
-    border-color: black;
+    border:1px solid black;
     
 }
 body{
@@ -29,8 +29,9 @@ p{
     font-family: 'grafitti';
     height: 3rem;
     width: auto;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: center;
+    padding-bottom: 80px;
     
 
     /*background-color: midnightblue;*/
@@ -45,17 +46,35 @@ p{
     align-items: center;
     font-size: 2rem;
     height: 100%;
+    width: 20%;
     padding: 3px;
     /*width: 20%;*/
-    /*border: 1px solid #b30059;*/
-    color:  #b30059;
-    box-shadow: 0px 0px 70px 10px #b30059;
+    /*border: 1px solid #ff0080;*/
+    color:  #4ddbff;
+    box-shadow: 0px 0px 70px 10px #ff0080;
+    border-radius: 50%;
     
 }
 a{
     text-decoration: none;
-    color: #b30059;
+    color: #4ddbff;
     font-size: 1rem;
+}
+
+.banner{
+    display: flex;
+    flex-direction:row;
+    
+    height: 5rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-family: 'grafitti';
+    color:   ;
+    color:#4ddbff;
+    border-radius: 50%;
+    box-shadow: 0px 0px 50px 10px #ff0080;
+    border: 1px solid #ff0080;
 }
 
 .main{
@@ -63,16 +82,44 @@ a{
     flex-direction: row;
     justify-content: center;
     margin-top: 5rem;
+    padding-bottom: 40px;
 }
 .main-picture{
     height: 20rem;
     width: 20rem;
-    border: 1px solid red;
+    border: 3px solid #4ddbff;
+    box-shadow: 0px 0px 30px 6px #4ddbff;
     margin-right: 3rem;
+    
 }
 
-.picture-info{
-    height: 20rem;
-    width: 20rem;
-    border: 1px solid red;
+
+
+.pic{
+    height:20rem;
+    width: auto;
+}
+
+.footer{
+    width: 100%;
+    display: flex;
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    border-top: .5rem solid #ff0080;
+    /*border: 1px solid red;*/
+    height: 5rem;
+    padding-bottom:  40px;
+}
+
+.footer-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 20%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 50px 10px #ff0080;   
+    font-family: 'grafitti';    
+    color: #4ddbff;
 }
