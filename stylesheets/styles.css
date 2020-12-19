@@ -51,6 +51,7 @@ p{
     /*width: 20%;*/
     /*border: 1px solid #ff0080;*/
     color:  #4ddbff;
+    text-shadow: 2px 2px 4px #4ddbff;
     box-shadow: 0px 0px 70px 10px #ff0080;
     border-radius: 50%;
     
@@ -64,7 +65,7 @@ a{
 .banner{
     display: flex;
     flex-direction:row;
-    
+    text-shadow: 2px 2px 4px #4ddbff;
     height: 5rem;
     justify-content: center;
     align-items: center;
