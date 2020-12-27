@@ -244,4 +244,12 @@ a{
         margin-left: 1rem;
         color: #ff0066;
         text-shadow: 2px 2px 4px #ff0066;
+    }
+    .picture-info{
+        align-items: center;
+        justify-content: center;
+    }
+    .main{
+        margin:4rem 1rem 1rem 1rem;
+    }
 }
